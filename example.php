@@ -10,10 +10,10 @@ if($token == null)
     // How to Acquire OAuth token example
     // OAuth config
     $params = array(
-        "client_id" => "123456", // demo id
-        "client_secret" => "abcdef", // demo secret
-        "username" => "c1aca59f-6882-4a0e-a215-f1fd00705120", // insert your merchant ID here
-        "password" => "4fad6701-80be-7744-ddf5-1b7b10eeebca", // insert your secret token here
+        "client_id" => "123456", // demo id is "123456"
+        "client_secret" => "abcdef", // demo secret is "abcdef"
+        "username" => "", // insert your merchant ID here
+        "password" => "", // insert your secret token here
         "scope" => "read:order write:order read:product write:product", // what permissions to get
         "grant_type" => "password",
 
